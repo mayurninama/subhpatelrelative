@@ -208,36 +208,35 @@ import{u as Oy,r as v,i as Xl,p as Ly,T as wf,g as Vy,_ as Qc,j as h,c as qe,d a
       h.jsxs(Je,{
         animation:"zoom-in",
         delay:150,
-        className:"paper-card relative mx-auto mt-10 w-full max-w-[490px] rounded-[28px] px-6 pb-8 pt-9 sm:px-8",
+        className:"paper-card relative mx-auto mt-10 w-full max-w-[460px] rounded-[28px] px-3.5 pb-8 pt-8 sm:px-7 sm:pt-9",
         children:[
           h.jsx(pP,{}),
           h.jsx("img",{src:dP,alt:"","aria-hidden":!0,loading:"lazy",className:"pointer-events-none absolute -left-4 -top-9 z-10 w-24 -rotate-6 select-none drop-shadow-sm"}),
           h.jsx("p",{
             style:{paddingTop:"14px",paddingBottom:"16px"},
             className:"font-caps border-b border-[var(--gold)]/30 text-center text-[0.76rem] font-semibold tracking-[0.22em] text-[var(--gold-deep)]",
-            children:rsvpCfg.cardTitle||"R.S.V.P. (BRIDE\x27S FAMILY)"
+            children:rsvpCfg.cardTitle||"R.S.V.P. (BRIDE'S FAMILY)"
           }),
           h.jsx("ul",{
             className:"divide-y divide-[var(--gold)]/25",
             children:contacts.map((c,idx)=>h.jsxs("li",{
-              style:{paddingTop:idx===0?"22px":"18px",paddingBottom:idx===contacts.length-1?"6px":"18px",display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"space-between",gap:"14px"},
-              className:"flex flex-wrap items-center justify-between",
+              className:"flex items-center justify-between gap-2.5 py-4 first:pt-4 last:pb-1",
               children:[
                 h.jsxs("div",{
-                  className:"min-w-[140px]",
+                  className:"min-w-0 flex-1",
                   children:[
                     h.jsx("p",{
-                      className:`font-display text-[1.65rem] font-semibold leading-tight ${c.highlight?"text-[var(--primary)]":"text-[#231b18]"}`,
+                      className:`font-display text-[1.28rem] font-semibold leading-tight sm:text-[1.45rem] ${c.highlight?"text-[var(--primary)]":"text-[#231b18]"}`,
                       children:c.name
                     }),
                     h.jsx("p",{
-                      className:"font-text mt-1 text-[0.95rem] tabular-nums text-[#5a4a44]",
+                      className:"font-text mt-0.5 text-[0.84rem] tabular-nums text-[#5a4a44] sm:text-[0.92rem]",
                       children:c.display
                     })
                   ]
                 }),
                 h.jsxs("div",{
-                  className:"flex items-center gap-2.5",
+                  className:"flex shrink-0 items-center gap-1.5 sm:gap-2",
                   children:[
                     h.jsxs("a",{
                       href:`tel:${c.tel}`,
