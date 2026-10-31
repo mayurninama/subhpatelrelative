@@ -54,11 +54,11 @@ const EVENTS = {
     subtitle: "An Afternoon of Henna, Music & Joyful Beginnings",
     time: "4:00 PM onwards",
     venue: VENUES.mehndi,
-    tone: "light",
+    tone: "dark",
     align: "top",
     media: {
-      video: "assets/video/mehendi.mp4",
-      poster: "assets/images/posters/mehendi.jpg",
+      video: null,
+      poster: "assets/images/posters/mehendi.webp",
     },
     dressCode: {
       title: "Festive Greens & Floral Pastels",
@@ -80,8 +80,8 @@ const EVENTS = {
     tone: "light",
     align: "top",
     media: {
-      video: "assets/video/garba.mp4",
-      poster: "assets/images/posters/garba.jpg",
+      video: null,
+      poster: "assets/images/posters/garba.webp",
     },
     dressCode: {
       title: "Traditional Grandeur",
@@ -114,7 +114,7 @@ const EVENTS = {
     },
     dressCodeLabel: "Haldi Dress Code",
     media: {
-      video: "assets/video/varadh.mp4",
+      video: null,
       poster: "assets/images/posters/haldi.webp",
     },
     tone: "dark",
@@ -138,8 +138,8 @@ const EVENTS = {
       ],
     },
     media: {
-      video: "assets/video/wedding.mp4",
-      poster: "assets/images/posters/wedding.jpg",
+      video: null,
+      poster: "assets/images/posters/wedding.webp",
     },
     tone: "dark",
     align: "center",
