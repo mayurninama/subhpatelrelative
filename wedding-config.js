@@ -208,7 +208,7 @@ window.WEDDING_CONFIG = {
     backgroundMusic: "assets/audio/wedding-bgm.mp3",
     monogram: "assets/images/branding/logo-ma-maroon.webp",
     studioLogo: "assets/images/branding/studio-logo.webp",
-    heroPhoto: "assets/images/gallery/hero.webp",
+    heroPhoto: "assets/images/gallery/ganesh-hero.webp",
     gallery: [
       { src: "assets/images/gallery/lake.webp", alt: "Maitri and Anuj portrait 1" },
       { src: "assets/images/gallery/palace.webp", alt: "Maitri and Anuj portrait 2" },
