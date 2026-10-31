@@ -210,12 +210,9 @@ window.WEDDING_CONFIG = {
     studioLogo: "assets/images/branding/studio-logo.webp",
     heroPhoto: "assets/images/gallery/ganesh-hero.webp",
     gallery: [
-      { src: "assets/images/gallery/lake.webp", alt: "Maitri and Anuj portrait 1" },
-      { src: "assets/images/gallery/palace.webp", alt: "Maitri and Anuj portrait 2" },
-      { src: "assets/images/gallery/stroll.webp", alt: "Maitri and Anuj portrait 3" },
-      { src: "assets/images/gallery/convertible.webp", alt: "Maitri and Anuj portrait 4" },
-      { src: "assets/images/gallery/jeep.webp", alt: "Maitri and Anuj portrait 5" },
-      { src: "assets/images/gallery/horse.webp", alt: "Maitri and Anuj portrait 6" },
+      { src: "assets/images/gallery/moment-1.webp", alt: "Maitri and Anuj in festive attire" },
+      { src: "assets/images/gallery/moment-2.webp", alt: "Maitri and Anuj by the lake" },
+      { src: "assets/images/gallery/moment-3.webp", alt: "Maitri and Anuj in traditional wear" },
     ],
   },
   blessings: {
